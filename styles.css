@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5e8da;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    background-color: #FFF;
+    max-width: 740px;
+    border-radius: 23px;
+    overflow: hidden;
+    margin: 121px 0px 0 0;
+}
+.container img {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 44px 0 3px 0;
+}
+.title {
+    font-size: 48px;
+    font-family: "Balthazar", serif;
+    font-weight: 600;
+    color: #333;
+    padding: 0 0 0 45px;
+}
+.description {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+    padding: 0px 43px 33px 43px;
+}
+.time {
+    background-color: #F8F0FA;
+    border-radius: 8px;
+    margin: 0px 40px 0 41px;
+    padding: 0 0px 0 8px;
+}
+.time p {
+    font-size: 14px;
+    color: #333;
+}
+.section-first{
+    font-size: 19px;
+    font-weight: bold;
+    color: #682745;
+    padding: 0 0 0px 22px;
+}
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #7e4733;
+}
+.used {
+    border-bottom: 1px solid #EEE;
+    margin-top: 31px;
+    margin-left: 45px;
+    margin-right: 36px;
+}
+.used ol {
+    margin-bottom:  20px;
+}
+.ingred {
+    border-bottom: 1px solid #EEE;
+    margin: 43px 0px 0px 42px;
+}
+.ingred ul{ 
+    margin-left: -21px;
+  }
+.ingred li, .used li {
+    font-size: 14px;
+    color:#623f3b;
+}
+.instruc {
+    counter-reset: item;
+    margin-left: -42px;
+    margin-right: 42px;
+}
+
+.instruc li {
+    list-style-type: none;
+    counter-increment: item;
+    margin-left: 7px;
+    padding: 0 0 13px 0;
+    line-height: 1.5;
+}
+.instruc li::before {
+    content: counter(item) ".";
+    font-weight: bold;
+    color:#8d503d;
+  }
+  .list-1 ul {
+   margin-left: 10px;
+  }
+.list-1 li {
+    color:#61233c;
+    width: bold;
+    padding: 0px 0 14px 0px;
+}
+.list-2 li {
+    color:#623f3b;
+    list-style-type: square;
+    padding:0 0px 15px;
+}
+li span {
+  color:#5f5a54;
+  padding-left: 22px;
+}
+.nutrition-container {
+    max-width: 670px;
+    margin: 0 auto;
+    padding: 43px;
+}
+.nutrition-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #7e4733;
+}
+.nutrition-description {
+    font-size: 14px;
+    margin-bottom: 9px;
+    color:#666561;
+}
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.nutrition-table th {
+    text-align: left;
+    padding: 17px 76px 12px 30px;
+    border-bottom: 1px solid #ddd;
+    font-weight: normal;
+    font-family: 'Arial', sans-serif;
+    color:#666561;
+}
+.nutrition-table td {
+    text-align: left;
+    padding: 17px 76px 12px 30px;
+    border-bottom: 1px solid #ddd;
+    color:#6d4939;
+    font-weight: bold;
+}
